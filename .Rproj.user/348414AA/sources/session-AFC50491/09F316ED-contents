@@ -3,7 +3,7 @@ Type: Package
 Title: Get Quotes from the Sopranos
 Version: 0.1.0
 Author: Rebecca Hadi
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <beccahadi@gmail.com>
 Description: Scrapes a website to get Sopranos quotes. Then, get a random quote. 
 License: What license is it under?
 Encoding: UTF-8

@@ -1,4 +1,12 @@
-# a get quote function 
+# 'Get data from Sopranos Quote Website
+# '
+# ' This function allows you to create a data frame object of Sopranos quotes
+# ' @keywords quotes
+# ' @param person Enter desired speaker (tony, family, everybody). Defaults to any
+# ' @export
+# ' @examples
+# ' getquote()
+
 getquote <- function(person="any") {
   if (person=='tony') {
     quote <- df %>% filter(person=='tony') %>% sample_n(1)

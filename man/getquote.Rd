@@ -5,8 +5,13 @@
 getquote()
 }
 \description{
-Returns a random Sopranos quote
+Prints a random Sopranos quote based on desired speaker
+(Tony, Soprano Family, Everybody Else).
+Defaults to any.
 }
 \examples{
 getquote()
+getquote(person='tony')
+getquote(person='family')
+getquote(person='everybody')
 }

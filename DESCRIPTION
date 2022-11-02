@@ -1,10 +1,10 @@
 Package: sopranos
 Type: Package
-Title: Get Quotes from the Sopranos
+Title: Sopranos QuoteR 
 Version: 0.1.0
 Author: Rebecca Hadi
 Maintainer: The package maintainer <beccahadi@gmail.com>
-Description: Scrapes a website to get Sopranos quotes. Then, get a random quote. 
+Description: Scrapes a website to get a non-exhaustive list of Sopranos quotes and saves as a data frame. Function `getquote()` prints a random quote based on the type of person ('tony', 'family','everybody else','any') 
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
